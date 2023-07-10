@@ -1,5 +1,8 @@
 package ua.dtsebulia.LoginAndRegistration.registration;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class RegistrationService {
 
 

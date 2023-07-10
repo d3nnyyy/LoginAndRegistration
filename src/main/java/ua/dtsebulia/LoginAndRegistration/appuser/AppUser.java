@@ -39,8 +39,8 @@ public class AppUser implements UserDetails {
     private String password;
     @Enumerated(STRING)
     private AppUserRole appUserRole;
-    private Boolean locked;
-    private Boolean enabled;
+    private Boolean locked = false;
+    private Boolean enabled = false;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
